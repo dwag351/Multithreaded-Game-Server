@@ -1,21 +1,19 @@
 # Multithreaded Game Server
-Kiwi Flight, a flight tracking project built using the MERN stack.
-<br>Based on the open source Virtual Radar Server (VRS) project, Kiwi Flight aims to create a modern, mobile first front end to compliment a rock solid backend.
+This is a project created for A1 COMPSCI 711. The requirements were to create a multithreaded TCP socket server which is compatible with any number of games that use certain commands.
 
-# Notes To The Markers
-### 1 - Data Sourcing
+# Description
+### 1 - Multithreaded Game Server
 As this is a live tracking service, at some times there may not be any planes displayed.
 This is not because of a bug or issue with the project, rather that there are no planes in the air that can be tracked.
-<br>You may also notice that the project only displays planes at high altitudes between Wellsford and Taupo.
-This is due to physical limitations of the hardware we have deployed for the project.
-As we are poor uni students, we have only been able to afford to depoly recievers in 3 locations across the country, these are:
-* Swanson, West Auckland
-* Whitianga, Coromandel
-* Taupo, Southern Waikato
+<br>There were a number of commands which were required for this assignment, these included:
+* /register
+* /pairme?player={username}
+* /mymove?player={username}&id={gameID}
+* /theirmove?player={username}&id={gameID}
 
-In future we are able to extend our reciever network for more coverage.
+For further work for this server it would make sense to fix some of the bugs associated with disconnects of clients.
 
-### 2 - Live ATC Audio
+### 2 - Checkers Game
 Due to CORS policies, the live ATC audio function will not work when the project is run locally.
 <br>If you wish to see this function in action, please head over to production depolyment: https://kiwiflight.freeth.kiwi/
 
