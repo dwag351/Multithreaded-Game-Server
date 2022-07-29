@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\Desktop\\Checkers Game Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj": {}
+    "C:\\Users\\David\\Documents\\GitHub\\Multithreaded-Game-Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\Desktop\\Checkers Game Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj": {
+    "C:\\Users\\David\\Documents\\GitHub\\Multithreaded-Game-Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\Desktop\\Checkers Game Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Documents\\GitHub\\Multithreaded-Game-Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj",
         "projectName": "WebSocketServer",
-        "projectPath": "C:\\Users\\David\\Desktop\\Checkers Game Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj",
+        "projectPath": "C:\\Users\\David\\Documents\\GitHub\\Multithreaded-Game-Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\Desktop\\Checkers Game Server\\Server\\Server\\WebSocketServer\\obj\\",
+        "outputPath": "C:\\Users\\David\\Documents\\GitHub\\Multithreaded-Game-Server\\Server\\Server\\WebSocketServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",

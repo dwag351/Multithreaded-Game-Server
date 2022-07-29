@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LfK9hEHoQ1W4wv6NaRzQZUmoUuLwbkkImaRhqxbHFsY/oePgFB3x3rJRGFdXn8KkK/Poo8LgKbTr38ezZCYHgQ==",
+  "dgSpecHash": "ntMCKJ17NYD0oEkE8i/SXZANAbpYFlaq6wzC8mYAEeoF1ES5/5BdxpHtZrr0/HWILUHYxMs36Z+xxwLSPbLHTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\Desktop\\Checkers Game Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj",
+  "projectFilePath": "C:\\Users\\David\\Documents\\GitHub\\Multithreaded-Game-Server\\Server\\Server\\WebSocketServer\\WebSocketServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
