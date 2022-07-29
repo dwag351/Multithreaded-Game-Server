@@ -6,8 +6,7 @@ This is a project created for A1 COMPSCI 711. The requirements were to create a 
 
 # Description
 ### 1 - Multithreaded Game Server
-As this is a live tracking service, at some times there may not be any planes displayed.
-This is not because of a bug or issue with the project, rather that there are no planes in the air that can be tracked.
+This multithreaded server is able to have multiple JS clients connect via special web APIs to different TCP sockets. It was a crucial requirement of the assignment this server was created for that it does not operate at a higher level then the TCP level which is employed.
 ![alt text](https://raw.githubusercontent.com/dwag351/Multithreaded-Game-Server/main/Images/Image02.JPG)
 <br>There were a number of commands which were required for this assignment, these included:
 * /register
@@ -18,27 +17,19 @@ This is not because of a bug or issue with the project, rather that there are no
 For further work for this server it would make sense to fix some of the bugs associated with disconnects of clients.
 
 ### 2 - Checkers Game
-This is a basic HTML, CSS and JS game which allows two players to connect to the game server and
 ![alt text](https://raw.githubusercontent.com/dwag351/Multithreaded-Game-Server/main/Images/Image03.JPG) 
-<br>If you wish to see this function in action, please head over to production depolyment: https://kiwiflight.freeth.kiwi/
+This checkers game is created with three main files, a HTML, JS and CSS file. These files are accompanied with a number of image files used to make up the bulk of the graphic interface of the game. Like normal checkers, one player is red and the other is black, however, in this version the server decides who is who. Each local client can only move their pieces when it is their turn. Turns are handled by the server.
 
 # Features
-* Multithreaded design of the server which allows for 
-* Responsive design
-* Displays police & miltary flights, unlike other major websites (FlightRadar24)
-* Live ATC audio feeds
-* Front end only, can connect to any existing VRS server
-* Key airport markers
-* Detailed Flight Stats
-* Open Source Leaflet map, does not require paid for license keys
-* Easy to search flight list
-* Airline Logos, for easy brand recognition
+* Multithreaded design of the server which allows for multiple clients to connect to it.
+* The server is able to match players together and handle disconnects.
+* The game client is able to operate a full game of checkers.
+* The server also has a useful console that displays all the actions being executed on each thread as they happen.
 
 # Running The Project
 
 To run the project:
-1) make sure that NPM is installed (should be installed if you have Node.js on your machine).
-2) navigate to the kiwi-flight directory.
-3) open the terminal and execute the following command to install dependencies: `npm install` (Give this a few minutes to install the dependancies)
-4) execute the following command to run the project: `npm start`
-5) open a browser, and navigate to http://127.0.0.1:3000
+1) Open the Visual Studio project files for the server.
+2) Run the server in Visual Studio.
+3) Open two copies of the local client HTML file.
+4) The two HTML pages will automatically connect to the server and play can commence. 
