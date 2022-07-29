@@ -1,6 +1,6 @@
 # Multithreaded Game Server
 
-![alt text](https://github.com/dwag351/Multithreaded-Game-Server/blob/main/Images/Image01.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/dwag351/Multithreaded-Game-Server/main/Images/Image01.JPG)
 
 This is a project created for A1 COMPSCI 711. The requirements were to create a multithreaded TCP socket server which is compatible with any number of games that use certain commands.
 
