@@ -1,0 +1,201 @@
+* {
+    margin: auto;
+}
+
+@keyframes bgScroll {
+  0% {
+    background-position : 0px 0px
+  }
+  100% {
+    background-position : -808000px -808000px
+  }
+}
+
+body {
+    background-image: url("Background.gif");
+    box-shadow: inset 0 0 100px black;
+    animation: bgScroll 20000s linear infinite;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    margin: 2.5%;
+}
+
+.mobile {
+    display: none;
+}
+
+table {
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: 15px;
+    background-position-y: 15px;
+    padding: 30px;
+}
+
+.desktop {
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}
+
+td {
+    text-align: center;
+    width: 65px;
+    height: 65px;
+}
+
+.red-turn-text {
+    color: #fbff00;
+    text-shadow: 2px 2px #a11d34;
+    font-family: "VT323";
+    font-size: 35px;
+    min-width: 50%;
+}
+
+.spacer {
+    width: 50px;
+}
+
+.black-turn-text {
+    font-family: "VT323";
+    font-size: 35px;
+    color: #4b4b4b;
+    text-shadow: 2px 2px black;
+}
+
+.black-piece {
+    width: 100%;
+    height: 100%;
+    background-image: url("BlackChecker.png");
+}
+
+.red-piece {
+    width: 100%;
+    height: 100%;
+    background-image: url("RedChecker.png");
+}
+
+.king.red-piece {
+    background-color: orange;
+}
+
+.king.black-piece {
+    background-color: purple;
+}
+
+p {
+    display: inline-block;
+}
+
+#divider {
+    font-size: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+span {
+    display: inline-block;
+}
+
+@media screen and (max-width: 560px) {
+    .red-piece {
+        height: 4.5vw;
+        width: 4.5vw;
+    }
+
+    .black-piece {
+        height: 4.5vw;
+        width: 4.5vw;
+    }
+
+    td {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .red-turn-text {
+        font-size: 40px;
+    }
+    
+    .black-turn-text {
+        font-size: 40px;
+    }
+
+    table {
+        margin: 0;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .red-turn-text {
+        -webkit-transform:rotate(-180deg);
+        -moz-transform:rotate(-180deg);
+        -o-transform:rotate(-180deg);
+        transform:rotate(-180deg);
+        filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);    
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .red-piece {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .black-piece {
+        height: 3vw;
+        width: 3vw;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .red-piece {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    .black-piece {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .red-piece {
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+
+    .black-piece {
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+
+    .red-turn-text {
+        font-size: 35px;
+    }
+    
+    .black-turn-text {
+        font-size: 35px;
+    }
+}
