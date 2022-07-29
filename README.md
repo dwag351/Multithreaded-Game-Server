@@ -1,6 +1,6 @@
 # Multithreaded Game Server
 
-![alt text](https://github.com/dwag351/Multithreaded-Game-Server/Images/Image01.jpg?raw=true)
+![alt text](https://github.com/dwag351/Multithreaded-Game-Server/blob/main/Images/Image01.jpg?raw=true)
 
 This is a project created for A1 COMPSCI 711. The requirements were to create a multithreaded TCP socket server which is compatible with any number of games that use certain commands.
 
@@ -8,7 +8,7 @@ This is a project created for A1 COMPSCI 711. The requirements were to create a 
 ### 1 - Multithreaded Game Server
 As this is a live tracking service, at some times there may not be any planes displayed.
 This is not because of a bug or issue with the project, rather that there are no planes in the air that can be tracked.
-![alt text](https://github.com/dwag351/Multithreaded-Game-Server/Images/Image02.jpg?raw=true)
+![alt text](https://github.com/dwag351/Multithreaded-Game-Server/blob/main/Images/Image02.jpg?raw=true)
 <br>There were a number of commands which were required for this assignment, these included:
 * /register
 * /pairme?player={username}
@@ -19,7 +19,7 @@ For further work for this server it would make sense to fix some of the bugs ass
 
 ### 2 - Checkers Game
 This is a basic HTML, CSS and JS game which allows two players to connect to the game server and
-![alt text](https://github.com/dwag351/Multithreaded-Game-Server/Images/Image03.jpg?raw=true) 
+![alt text](https://github.com/dwag351/Multithreaded-Game-Server/blob/main/Images/Image03.jpg?raw=true) 
 <br>If you wish to see this function in action, please head over to production depolyment: https://kiwiflight.freeth.kiwi/
 
 # Features
